@@ -1,0 +1,455 @@
+Request method:	GET
+Request URI:	https://fake-store-api.mock.beeceptor.com/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=2592000
+Content-Length: 536
+Content-Type: application/json
+Date: Thu, 08 Jan 2026 07:31:42 GMT
+Vary: Accept-Encoding
+X-Beeceptor-Rule-Id: neosd74ok9
+
+[
+    {
+        "user_id": 1,
+        "username": "john_doe",
+        "email": "john@example.com",
+        "password": "hashed_password"
+    },
+    {
+        "user_id": 2,
+        "username": "jane_smith",
+        "email": "jane@example.com",
+        "password": "hashed_password"
+    },
+    {
+        "user_id": 3,
+        "username": "bob_johnson",
+        "email": "bob@example.com",
+        "password": "hashed_password"
+    },
+    {
+        "user_id": 4,
+        "username": "susan_wilson",
+        "email": "susan@example.com",
+        "password": "hashed_password"
+    },
+    {
+        "user_id": 5,
+        "username": "mike_anderson",
+        "email": "mike@example.com",
+        "password": "hashed_password"
+    }
+]
+Request method:	GET
+Request URI:	https://fake-store-api.mock.beeceptor.com/api/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=2592000
+Content-Length: 5331
+Content-Type: application/json
+Date: Thu, 08 Jan 2026 07:31:43 GMT
+Vary: Accept-Encoding
+X-Beeceptor-Rule-Id: ctzzdnbz49s
+
+[
+    {
+        "product_id": 1,
+        "name": "Smartphone",
+        "description": "High-end smartphone with advanced features.",
+        "price": 599.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/smartphone.jpg",
+        "discount": 10,
+        "availability": true,
+        "brand": "BrandX",
+        "category": "Electronics",
+        "rating": 4.5,
+        "reviews": [
+            {
+                "user_id": 1,
+                "rating": 5,
+                "comment": "Great phone with a superb camera!"
+            },
+            {
+                "user_id": 2,
+                "rating": 4,
+                "comment": "Good performance, but the battery life could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 2,
+        "name": "Laptop",
+        "description": "Powerful laptop for work and gaming.",
+        "price": 999.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/laptop.jpg",
+        "discount": 5,
+        "availability": true,
+        "brand": "BrandY",
+        "category": "Electronics",
+        "rating": 4.7,
+        "reviews": [
+            {
+                "user_id": 3,
+                "rating": 5,
+                "comment": "Excellent laptop for gaming and work tasks."
+            },
+            {
+                "user_id": 4,
+                "rating": 4,
+                "comment": "Good value for the price."
+            }
+        ]
+    },
+    {
+        "product_id": 3,
+        "name": "Wireless Headphones",
+        "description": "Premium wireless headphones with noise-cancellation.",
+        "price": 149.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/headphones.jpg",
+        "discount": 15,
+        "availability": true,
+        "brand": "SoundMasters",
+        "category": "Electronics",
+        "rating": 4.8,
+        "reviews": [
+            {
+                "user_id": 5,
+                "rating": 5,
+                "comment": "Top-notch sound quality and comfort."
+            },
+            {
+                "user_id": 6,
+                "rating": 4,
+                "comment": "Impressive noise-cancellation, but a bit pricey."
+            }
+        ]
+    },
+    {
+        "product_id": 4,
+        "name": "Smartwatch",
+        "description": "Feature-packed smartwatch with fitness tracking.",
+        "price": 199.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/smartwatch.jpg",
+        "discount": 10,
+        "availability": true,
+        "brand": "TechWear",
+        "category": "Wearables",
+        "rating": 4.6,
+        "reviews": [
+            {
+                "user_id": 7,
+                "rating": 4,
+                "comment": "Great value for the features it offers."
+            },
+            {
+                "user_id": 8,
+                "rating": 5,
+                "comment": "Sleek design and accurate fitness tracking."
+            }
+        ]
+    },
+    {
+        "product_id": 5,
+        "name": "Professional DSLR Camera",
+        "description": "High-quality DSLR camera for photography enthusiasts.",
+        "price": 499.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/camera.jpg",
+        "discount": 5,
+        "availability": true,
+        "brand": "PhotoPro",
+        "category": "Cameras",
+        "rating": 4.9,
+        "reviews": [
+            {
+                "user_id": 9,
+                "rating": 5,
+                "comment": "Exceptional image quality and versatility."
+            },
+            {
+                "user_id": 10,
+                "rating": 4,
+                "comment": "A bit heavy, but the results are worth it."
+            }
+        ]
+    },
+    {
+        "product_id": 6,
+        "name": "Smart TV",
+        "description": "High-definition smart TV with built-in streaming apps.",
+        "price": 799.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/tv.jpg",
+        "discount": 8,
+        "availability": true,
+        "brand": "ViewTech",
+        "category": "Electronics",
+        "rating": 4.7,
+        "reviews": [
+            {
+                "user_id": 11,
+                "rating": 5,
+                "comment": "Stunning picture quality and user-friendly interface."
+            },
+            {
+                "user_id": 12,
+                "rating": 4,
+                "comment": "A great addition to our home entertainment setup."
+            }
+        ]
+    },
+    {
+        "product_id": 7,
+        "name": "Tablet",
+        "description": "Compact tablet for productivity and entertainment.",
+        "price": 299.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/tablet.jpg",
+        "discount": 12,
+        "availability": true,
+        "brand": "TabTech",
+        "category": "Electronics",
+        "rating": 4.4,
+        "reviews": [
+            {
+                "user_id": 13,
+                "rating": 4,
+                "comment": "Good value for the price, but the battery life could be better."
+            },
+            {
+                "user_id": 14,
+                "rating": 5,
+                "comment": "Ideal for both work and entertainment on the go."
+            }
+        ]
+    },
+    {
+        "product_id": 8,
+        "name": "Gaming Console",
+        "description": "Next-gen gaming console for immersive gaming experiences.",
+        "price": 399.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/console.jpg",
+        "discount": 10,
+        "availability": true,
+        "brand": "GameX",
+        "category": "Gaming",
+        "rating": 4.8,
+        "reviews": [
+            {
+                "user_id": 15,
+                "rating": 5,
+                "comment": "Incredible gaming performance and graphics."
+            },
+            {
+                "user_id": 16,
+                "rating": 4,
+                "comment": "A must-have for gaming enthusiasts."
+            }
+        ]
+    },
+    {
+        "product_id": 9,
+        "name": "Energy-Efficient Refrigerator",
+        "description": "Modern refrigerator with energy-saving features.",
+        "price": 599.99,
+        "unit": "Piece",
+        "image": "https://example.com/images/refrigerator.jpg",
+        "discount": 5,
+        "availability": true,
+        "brand": "CoolTech",
+        "category": "Appliances",
+        "rating": 4.6
+    }
+]
+Request method:	GET
+Request URI:	https://fake-store-api.mock.beeceptor.com/api/carts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=2592000
+Content-Length: 121
+Content-Type: application/json
+Date: Thu, 08 Jan 2026 07:31:44 GMT
+Vary: Accept-Encoding
+X-Beeceptor-Rule-Id: slru9e3rys
+
+[
+    {
+        "cart_id": 1,
+        "user_id": 1,
+        "items": [
+            {
+                "product_id": 1,
+                "quantity": 2
+            },
+            {
+                "product_id": 3,
+                "quantity": 1
+            }
+        ]
+    }
+]
+Request method:	GET
+Request URI:	https://fake-store-api.mock.beeceptor.com/api/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=2592000
+Content-Length: 833
+Content-Type: application/json
+Date: Thu, 08 Jan 2026 07:31:46 GMT
+Vary: Accept-Encoding
+X-Beeceptor-Rule-Id: 2nssdobs16r
+
+[
+    {
+        "order_id": 1,
+        "user_id": 1,
+        "items": [
+            {
+                "product_id": 1,
+                "quantity": 2
+            },
+            {
+                "product_id": 3,
+                "quantity": 1
+            }
+        ],
+        "total_price": 849.97,
+        "status": "Shipped"
+    },
+    {
+        "order_id": 2,
+        "user_id": 2,
+        "items": [
+            {
+                "product_id": 2,
+                "quantity": 1
+            },
+            {
+                "product_id": 7,
+                "quantity": 1
+            }
+        ],
+        "total_price": 1149.98,
+        "status": "Delivered"
+    },
+    {
+        "order_id": 3,
+        "user_id": 3,
+        "items": [
+            {
+                "product_id": 4,
+                "quantity": 1
+            },
+            {
+                "product_id": 8,
+                "quantity": 1
+            }
+        ],
+        "total_price": 599.98,
+        "status": "Processing"
+    },
+    {
+        "order_id": 4,
+        "user_id": 4,
+        "items": [
+            {
+                "product_id": 5,
+                "quantity": 1
+            },
+            {
+                "product_id": 10,
+                "quantity": 2
+            }
+        ],
+        "total_price": 1099.97,
+        "status": "Shipped"
+    },
+    {
+        "order_id": 5,
+        "user_id": 5,
+        "items": [
+            {
+                "product_id": 6,
+                "quantity": 1
+            },
+            {
+                "product_id": 9,
+                "quantity": 1
+            }
+        ],
+        "total_price": 1399.98,
+        "status": "Delivered"
+    }
+]
+Request method:	PUT
+Request URI:	https://fake-store-api.mock.beeceptor.com/api/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=2592000
+Content-Length: 84
+Content-Type: application/json
+Date: Thu, 08 Jan 2026 07:31:46 GMT
+Vary: Accept-Encoding
+X-Beeceptor-Rule-Id: upwj4thoqfj
+
+{
+    "order_id": 6,
+    "status": "Placed",
+    "message": "Order successfully placed."
+}
