@@ -7,16 +7,19 @@ import java.io.PrintStream;
 import java.util.Properties;
 
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 
 public class Utils {
 	
 	public static RequestSpecification req;
+	public static ResponseSpecification res;
 	
 	public RequestSpecification requestSpecification() throws IOException {
 				
@@ -33,7 +36,15 @@ public class Utils {
 			return req;
 		}
 		return req;
+	}
+	
+	public ResponseSpecification responseSpecification() {
 		
+		res=new ResponseSpecBuilder()
+				.expectStatusCode(200)
+				.expectContentType(ContentType.JSON)
+				.build();
+		return res;
 	}
 	
 	public static String getGlobalValue(String key) throws IOException {
