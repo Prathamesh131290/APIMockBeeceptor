@@ -12,8 +12,6 @@ import java.util.Map;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.http.ContentType;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -100,7 +98,6 @@ public class StepDefinition extends Utils
 	@Then("We validate API response schema against a specification") //not working
 	public void we_validate_api_response_schema_against_a_specification() 
 	{
-		
 		resSpec.body(JsonSchemaValidator.matchesJsonSchemaInClasspath(System.getProperty("user.dir")+"//src//test//java//resources//PutApiResponseSchema.json"));
 	}
 
