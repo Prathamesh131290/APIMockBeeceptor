@@ -95,7 +95,7 @@ public class StepDefinition extends Utils
 		assertEquals(statusText, "OK");
 	}
 	
-	@Then("We validate API response schema against a specification") //not working
+	@Then("We validate API response schema against a specification") //not working, need to fix 
 	public void we_validate_api_response_schema_against_a_specification() 
 	{
 		resSpec.body(JsonSchemaValidator.matchesJsonSchemaInClasspath(System.getProperty("user.dir")+"//src//test//java//resources//PutApiResponseSchema.json"));
